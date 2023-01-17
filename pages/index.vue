@@ -10,7 +10,7 @@ import { IfcViewerAPI } from "web-ifc-viewer";
 
 import { AmbientLight, AxesHelper, DirectionalLight, GridHelper, PerspectiveCamera, Scene, WebGLRenderer } from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-import { IFCLoader } from "web-ifc-three/IFCLoader";
+// import { IFCLoader } from "web-ifc-three/IFCLoader";
 
 export default {
 
@@ -30,7 +30,7 @@ export default {
     this.viewer.axes.setAxes();
     this.viewer.grid.setGrid();
     
-    this.viewer.IFC.loader = new IFCLoader();
+    // this.viewer.IFC.loader = new IFCLoader();
     this.loadIfc("models/haus.ifc");
 
     window.onmousemove = () => this.viewer.IFC.selector.prePickIfcItem();

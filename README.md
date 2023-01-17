@@ -1,6 +1,7 @@
 # Nuxt IFC viewer
 
-this code is designed to represent [issue 173 in web-ifc-viewer](https://github.com/IFCjs/web-ifc-viewer/issues/173)
+this code is designed to represent [issue 173](https://github.com/IFCjs/web-ifc-viewer/issues/173) in web-ifc-viewer
+this issue was solved by the devloper and this is an example of using ifc viewer with nuxtjs
 
 ## Build Setup
 
